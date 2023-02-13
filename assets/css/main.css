@@ -17,8 +17,8 @@
 /* *******************************************************
  *  Admin
  * ***************************************************** */
-@import url('https://adfinis.com/wp-content/themes/wb-adfinisng-child/fonts/sourcesanspro');
-@import url('https://adfinis.com/wp-content/themes/wb-adfinisng-child/fonts/inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 html[lang="en-US"] #wp-admin-bar-fl-builder-frontend-edit-link:hover:after, html[lang="fr-FR"] #wp-admin-bar-fl-builder-frontend-edit-link:hover:after {
   content: "Achtung, wenn die Seite automatisch übersetzt wird, bitte Edit Translation verwenden.";
   font-size: 12px;
