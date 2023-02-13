@@ -1,0 +1,24 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+
+  <title>{{ site.title }}</title>
+  <meta name="description"
+        content="{{ site.description }}" />
+  <link rel="canonical" href="{{ site.baseurl }}" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description"
+        content="{{ site.description }}" />
+
+  <link rel='stylesheet'
+    href="{{ '/assets/css/bootstrap-4.min.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel='stylesheet' href="{{ '/assets/css/all.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel='stylesheet' href="{{ '/assets/css/skin.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel='stylesheet' href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel='stylesheet' href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <link rel='stylesheet' href="{{ '/assets/css/layout.css?v=' | append: site.github.build_revision | relative_url }}" />
+  <!--n2css-->
+  <script src="{{ '/assets/js/jquery.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery-migrate.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+</head>

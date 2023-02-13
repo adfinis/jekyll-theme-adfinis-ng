@@ -1,0 +1,10 @@
+var $=jQuery
+$(document).ready(function(){$('body').addClass($('#menu-mainmenu > li[class*="current"] > ul.sub-menu').length?'has_subnav':'no_subnav')
+jQuery('button.navbar-toggle').click(function(e){e.preventDefault();jQuery('body').toggleClass('nav_open');return!1});$('.adng-button-big a.fl-icon-text-link').after(function(){return'<a href="'+$(this).attr('href')+'" target="'+($(this).attr('target')||'_self')+'" rel="'+($(this).attr('rel')||'')+'" class="adng-button-big-link"></a>'})
+$('.wb-partner .fl-col-group:has(.fl-photo-caption)').addClass('wb-partner-logos')})
+$(function(){sessionsFilter();navOnClick();contactQuickForm()});function sessionsFilter(){var filterClass='filter-hide';var filter=$('#wb-services-filter');var tags=filter.find('> span');var cards=filter.find('~ #wb-services-listing > .wb-service-single');tags.click(function(){var tag=$(this);var thema=tag.attr('id');var isActive=tag.hasClass('active');var cardsMatch=cards.filter('[data-thema="'+thema+'"]');var cardsUnmatch=cards.filter(':not([data-thema="'+thema+'"])');tags.removeClass('active');if(isActive){tag.addClass('active')}else{tag.addClass('active');cardsUnmatch.addClass(filterClass);cardsUnmatch.hide()}
+cardsMatch.show();window.setTimeout(function(){cardsMatch.removeClass(filterClass)},20)})}
+function navOnClick(){var openClass='open'
+var mq=window.matchMedia('(min-width: 768px)');if(mq.matches){var nav=$('nav.fl-page-nav.fl-nav.navbar');var li=nav.find('li.menu-item-has-children');li.click(function(){$(this).siblings('.'+openClass).removeClass(openClass);$(this).addClass(openClass)})
+$('#fl-main-content').click(function(){li.removeClass('open')})}}
+function contactQuickForm(){var toggle=$('.wb-kontakt-toggle');var form=$('.wb-kontakt-form');window.setTimeout(function(){toggle.off('click').click(function(){form.toggle()})},500);$('#fl-main-content').click(function(){form.hide()})}

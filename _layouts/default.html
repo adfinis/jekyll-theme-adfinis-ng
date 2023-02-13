@@ -1,0 +1,25 @@
+---
+---
+
+<!doctype html>
+<!--
+  jekyll-theme-adfinis-ng by Gian Klug
+  based on https://adfinis.com
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body class="home page-template-default page page-id-6714 fl-builder fl-framework-bootstrap-4 fl-preset-default fl-full-width fl-fixed-header fl-submenu-indicator no_subnav fl-builder-breakpoint-large">
+    {% include header.html %}
+    {% include styles.html %}
+    <div class="fl-page" style="padding-top: 112px;">
+      {{ content }}
+      {% include footer.html %}
+
+    {% include scripts.html %}
+    </div>
+
+  </body>
+</html>
