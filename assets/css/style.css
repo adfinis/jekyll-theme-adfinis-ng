@@ -438,3 +438,7 @@ div.adfinis-nav-foot div.adfinis-nav-foot-pp {
 .highlighter-rouge pre.highlight {
     padding: 1em 1em 1em 1em;
 }
+
+a {
+    color: #2e4b98 !important;
+}

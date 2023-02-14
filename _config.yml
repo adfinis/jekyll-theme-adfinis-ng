@@ -32,6 +32,9 @@ header:
     title: "Contact"
     href: "https://adfinis.com/kontakt/"
 
+hero:
+  image_url: "https://www.publicdomainpictures.net/pictures/100000/nahled/blue-containers.jpg"
+
 footer:
   blog:
     name: "Blog"
