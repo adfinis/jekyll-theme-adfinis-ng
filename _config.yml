@@ -25,7 +25,7 @@ email                   : your-email@example.com
 description             : >-
   Welcome to Adfinis!
 baseurl                 : "https://maryana-b.github.io/jekyll-theme-adfinis-ng/"
-url                     : ""
+url                     : "https://maryana-b.github.io/jekyll-theme-adfinis-ng/"
 
 header:
   button:
