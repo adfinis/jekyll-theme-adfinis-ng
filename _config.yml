@@ -26,14 +26,16 @@ description             : >-
   Welcome to Adfinis!
 baseurl                 : "/jekyll-theme-adfinis-ng/"
 url                     : ""
-
 header:
   button:
     title: "Contact"
     href: "https://adfinis.com/kontakt/"
 
 #hero:
-#  image_url: "https://www.publicdomainpictures.net/pictures/100000/nahled/blue-containers.jpg"
+#  image_url: "data:image/jpeg;base64, " #TODO
+
+hero:
+  image_url: "https://www.publicdomainpictures.net/pictures/100000/nahled/blue-containers.jpg":
 
 footer:
   blog:
