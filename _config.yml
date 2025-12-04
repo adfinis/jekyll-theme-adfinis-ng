@@ -24,15 +24,12 @@ title                   : jekyll-theme-adfinis-ng
 email                   : your-email@example.com
 description             : >-
   Welcome to Adfinis!
-baseurl                 : "/jekyll-theme-adfinis-ng/"
+baseurl                 : ""
 url                     : ""
 header:
   button:
     title: "Contact"
     href: "https://adfinis.com/kontakt/"
-
-#hero:
-#  image_url: "data:image/jpeg;base64, " #TODO
 
 hero:
   image_url: "https://www.publicdomainpictures.net/pictures/100000/nahled/blue-containers.jpg"
@@ -52,7 +49,7 @@ footer:
 
 
 # Build settings
-remote_theme: Maryana-B/jekyll-theme-adfinis-ng
+remote_theme: adfinis/jekyll-theme-adfinis-ng
 
 # Exclude from processing.
 # The following items will not be processed, by default.
